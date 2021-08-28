@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.views.generic import UpdateView
 
-from .models import Person
 from .forms import myUserForm
+from .models import Person
 
 
 def index(request):
